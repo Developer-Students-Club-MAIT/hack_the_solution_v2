@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb1ceb28de2673aa3b52ec69020856b6",
+    "revision": "603bb2902cdb95b19fb4bfe2edfb6dec",
     "url": "/hack_the_solution_v2/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hack_the_solution_v2/static/js/4.bce9a18c.chunk.js"
   },
   {
-    "revision": "98cc933e2a3a9d55ea72",
-    "url": "/hack_the_solution_v2/static/js/main.7b4be48d.chunk.js"
+    "revision": "d0b830149129a8b84714",
+    "url": "/hack_the_solution_v2/static/js/main.8803d1d9.chunk.js"
   },
   {
     "revision": "1cc856635a56939d52bd",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hack_the_solution_v2/static/media/activity.e95654b9.jpg"
   },
   {
-    "revision": "40aa2a421cb3b57cb234ccee21438cbf",
-    "url": "/hack_the_solution_v2/static/media/activity1.40aa2a42.png"
+    "revision": "580b79ccc24f54fca751eb1eca915782",
+    "url": "/hack_the_solution_v2/static/media/activity1.580b79cc.png"
   },
   {
     "revision": "2c8275d0dcbeb714f7adb34f43f0db0e",
@@ -192,8 +192,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hack_the_solution_v2/static/media/hackers.ebbd1951.jpg"
   },
   {
-    "revision": "d4b0699e8c77d72c820bcab6e3e6a7c1",
-    "url": "/hack_the_solution_v2/static/media/hackers1.d4b0699e.png"
+    "revision": "67b56c1ff3402d78ff44837ec8f2d921",
+    "url": "/hack_the_solution_v2/static/media/hackers1.67b56c1f.png"
   },
   {
     "revision": "74680e7254de44e72e3ab1eb9c4bffe8",
@@ -204,20 +204,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hack_the_solution_v2/static/media/hackers3.7225604e.png"
   },
   {
-    "revision": "032f8d86eee6d73129209413460a9d2f",
-    "url": "/hack_the_solution_v2/static/media/hackers4.032f8d86.png"
+    "revision": "0ffa5498a7a7a048347f8d556ec774cb",
+    "url": "/hack_the_solution_v2/static/media/hackers4.0ffa5498.png"
   },
   {
     "revision": "08d0de1386e26b70b92b9270a5d835cd",
     "url": "/hack_the_solution_v2/static/media/hardware.08d0de13.jpg"
   },
   {
-    "revision": "33d1cc61f3008cc4c8e8eb1317cbb40e",
-    "url": "/hack_the_solution_v2/static/media/hardware1.33d1cc61.png"
+    "revision": "e964f18eccab13759620c234d92af0b5",
+    "url": "/hack_the_solution_v2/static/media/hardware1.e964f18e.png"
   },
   {
-    "revision": "9586ff0e513820648f86c4758ba0612b",
-    "url": "/hack_the_solution_v2/static/media/hardware2.9586ff0e.png"
+    "revision": "6c5a07b70835281b635c098753e5f4cc",
+    "url": "/hack_the_solution_v2/static/media/hardware2.6c5a07b7.png"
   },
   {
     "revision": "32f42ad6c2fb22f4eb2da27e6cd5de37",
