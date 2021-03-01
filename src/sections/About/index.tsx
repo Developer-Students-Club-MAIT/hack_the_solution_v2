@@ -123,19 +123,19 @@ const gearConfigs: GearConfigProps[] = [
   {
     x: getResponsiveObject(135, 85, -110),
     y: getResponsiveObject(0, 0, 0),
-    h: getResponsiveObject(430, 380, 270),
+    h: getResponsiveObject(380, 380, 270),
     id: "gear1"
   },
   {
     x: getResponsiveObject(360, 37, -157),
     y: getResponsiveObject(354, 523, 400),
-    h: getResponsiveObject(420, 370, 260),
+    h: getResponsiveObject(370, 370, 260),
     id: "gear2"
   },
   {
     x: getResponsiveObject(0, -189, -300),
     y: getResponsiveObject(475, 246, 171),
-    h: getResponsiveObject(387, 350, 250),
+    h: getResponsiveObject(350, 350, 250),
     id: "gear3"
   },
   {

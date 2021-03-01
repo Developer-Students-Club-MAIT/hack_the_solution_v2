@@ -11,7 +11,7 @@ import {
   KevinHackerHeadshotImg,
   MichelleHackerHeadshotImg,
   // Sponsors & Partners
-  TechyonLogoImg,
+  DSCMaitLogo,
   SponsorLogoImg,
   SponsorIllustrationImg,
   
@@ -57,8 +57,8 @@ import {
   // Navbar
   LogoIconLightImg,
   LogoIconDarkImg,
-  SocialFacebookImg,
-  SocialFacebookImgDark,
+  SocialLinkedInImg,
+  SocialLinkedInImgDark,
   SocialInstaImg,
   SocialInstaImgDark,
   SocialTwitterImg,
@@ -76,6 +76,19 @@ import {
   SustainableCitiesImg,
   HackTheSolution,
   DSCLogo,
+  OpenInnovationImg,
+ExploreMoreImg,
+devfolioLogoImg,
+maticLogoImg,
+portisLogoImg,
+tezosLogoImg,
+echoarLogoImg,
+glimpseLogoImg,
+wolframLogoImg,
+interviewLogoImg,
+sashidoLogoImg,
+balsamiqLogoImg,
+replItLogoImg,
 } from "static/img";
 
 interface Sponsor {
@@ -92,111 +105,81 @@ interface Sponsor {
 
 const sponsors: Sponsor[] = [
   {
-    name: "Hack the North",
+    name: "DevFolio",
     tier: "silver",
-    imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    imgSrc: devfolioLogoImg,
+    link: "https://devfolio.co"
   },
 
   {
-    name: "Hack the North",
+    name: "Matic",
     tier: "silver",
-    imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    imgSrc: maticLogoImg,
+    link: "https://matic.network/"
   },
   {
-    name: "Hack the North",
+    name: "Portis",
     tier: "silver",
-    imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    imgSrc: portisLogoImg,
+    link: "https://www.portis.io/"
   },
   {
-    name: "Hack the North",
+    name: "Tezos",
     tier: "silver",
-    imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    imgSrc: tezosLogoImg,
+    link: "https://tezos.com/"
   },
   {
-    name: "Hack the North",
+    name: "Echo AR",
     tier: "silver",
-    imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    imgSrc: echoarLogoImg,
+    link: "https://console.echoar.xyz/#/auth/register-hackathon?code=HackTheSolution"
   },
   {
-    name: "Hack the North",
+    name: "Glimpse",
     tier: "silver",
-    imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    imgSrc: glimpseLogoImg,
+    link: "http://www.joinglimpse.com/"
   },
   {
-    name: "Hack the North",
+    name: "WolFram",
     tier: "silver",
-    imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    imgSrc: wolframLogoImg,
+    link: "https://www.wolfram.com/wolfram-one/"
   },
   {
-    name: "Hack the North",
+    name: "Interview Cake",
     tier: "silver",
-    imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    imgSrc: interviewLogoImg,
+    link: "https://interviewcake.com/"
   },
   {
-    name: "Hack the North",
+    name: "SashiDo",
     tier: "silver",
-    imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    imgSrc: sashidoLogoImg,
+    link: "https://www.sashido.io/en/"
   },
   {
-    name: "Hack the North",
+    name: "Balsamiq",
     tier: "silver",
-    imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com",
-    feature: {
-      text:
-        "Hack the North is Canada's biggest hackathon, happening on September 13-15, 2019 at the University of Waterloo.",
-      link: "https://hackthenorth.com",
-      linkLabel: "Hack the North"
-    }
+    imgSrc: balsamiqLogoImg,
+    link: "https://balsamiq.com/",
+    // feature: {
+    //   text:
+    //     "Hack the North is Canada's biggest hackathon, happening on September 13-15, 2019 at the University of Waterloo.",
+    //   link: "https://hackthenorth.com",
+    //   linkLabel: "Hack the North"
+    // }
   },
   {
-    name: "Hack the North",
+    name: "Repl.it",
     tier: "silver",
-    imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
-  },
-  {
-    name: "Hack the North",
-    tier: "silver",
-    imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com",
-    feature: {
-      text:
-        "Hack the North is Canada's biggest hackathon, happening on September 13-15, 2019 at the University of Waterloo.",
-      link: "https://hackthenorth.com",
-      linkLabel: "Hack the North"
-    }
-  },
-  {
-    name: "Hack the North",
-    tier: "silver",
-    imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com",
-    feature: {
-      text:
-        "Hack the North is Canada's biggest hackathon, happening on September 13-15, 2019 at the University of Waterloo.",
-      link: "https://hackthenorth.com",
-      linkLabel: "Hack the North"
-    }
-  },
-  {
-    name: "Hack the North",
-    tier: "silver",
-    imgSrc: SponsorLogoImg,
-    link: "https://hackthenorth.com"
+    imgSrc: replItLogoImg,
+    link: "https://repl.it/"
   },
   // {
   //   name: "Hack the North",
-  //   tier: "gold",
+  //   tier: "silver",
   //   imgSrc: SponsorLogoImg,
   //   link: "https://hackthenorth.com",
   //   feature: {
@@ -205,6 +188,24 @@ const sponsors: Sponsor[] = [
   //     link: "https://hackthenorth.com",
   //     linkLabel: "Hack the North"
   //   }
+  // },
+  // {
+  //   name: "Hack the North",
+  //   tier: "silver",
+  //   imgSrc: SponsorLogoImg,
+  //   link: "https://hackthenorth.com",
+  //   feature: {
+  //     text:
+  //       "Hack the North is Canada's biggest hackathon, happening on September 13-15, 2019 at the University of Waterloo.",
+  //     link: "https://hackthenorth.com",
+  //     linkLabel: "Hack the North"
+  //   }
+  // },
+  // {
+  //   name: "Hack the North",
+  //   tier: "silver",
+  //   imgSrc: SponsorLogoImg,
+  //   link: "https://hackthenorth.com"
   // },
   // {
   //   name: "Hack the North",
@@ -218,11 +219,23 @@ const sponsors: Sponsor[] = [
   //     linkLabel: "Hack the North"
   //   }
   // },
+  // {
+  //   name: "Hack the North",
+  //   tier: "gold",
+  //   imgSrc: SponsorLogoImg,
+  //   link: "https://hackthenorth.com",
+  //   feature: {
+  //     text:
+  //       "Hack the North is Canada's biggest hackathon, happening on September 13-15, 2019 at the University of Waterloo.",
+  //     link: "https://hackthenorth.com",
+  //     linkLabel: "Hack the North"
+  //   }
+  // },
   {
-    name: "Techyon",
+    name: "DSC Mait",
     tier: "partner",
-    imgSrc: TechyonLogoImg,
-    link: "https://techyon.org/"
+    imgSrc: DSCMaitLogo,
+    link: "https://dscmait.xyz/"
   }
 ];
 
@@ -245,185 +258,56 @@ const shuffle = <T extends {}>(array: T[]) => {
 
 const team = [
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
+    text: "Made with 🤯 by Deepika Rana, Lead Organiser",
     img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    alt: "Hack the Solution logo"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
+    text: "Made with 🍟 by Harshita Chadha, Co-organiser, Operations",
     img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    alt: "Hack the Solution logo"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
+    text: "Made with ☕️ by Deeksha Madan, Co-organiser, Management",
     img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    alt: "Hack the Solution logo"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
+    text: "Made with 💫 by Ishita Arora, Co-organiser, Marketing",
     img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    alt: "Hack the Solution logo"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
+    text: "Made with 🎮 by Saksham Arora, Co-organiser, Logistics",
     img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    alt: "Hack the Solution logo"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
+    text: "Made with 🤯 by Deepika Rana, Lead Organiser",
     img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    alt: "Hack the Solution logo"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
+    text: "Made with 🍟 by Harshita Chadha, Co-organiser, Operations",
     img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    alt: "Hack the Solution logo"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
+    text: "Made with ☕️ by Deeksha Madan, Co-organiser, Management",
     img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    alt: "Hack the Solution logo"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
+    text: "Made with 💫 by Ishita Arora, Co-organiser, Marketing",
     img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    alt: "Hack the Solution logo"
   },
   {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
+    text: "Made with 🎮 by Saksham Arora, Co-organiser, Logistics",
     img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
+    alt: "Hack the Solution logo"
   },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Open-sourced with 💛 by Michal Jez, Frontend",
-    img: MichalHeadshotImg,
-    alt: "A headshot of Michal Jez"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  },
-  {
-    text: "Made with 💛 by students in Waterloo 🇨🇦",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the North logo"
-  }
+  
 ];
 
 export default {
@@ -432,15 +316,15 @@ export default {
       light: LogoIconLightImg,
       dark: LogoIconDarkImg
     },
-    sections: ["About", "Hackathon", "Sponsors", "FAQ", "DSC MAIT"],
+    sections: ["About", "Hackathon", "Sponsors", "FAQ", "DSC"],
     socialLinks: [
       {
         name: "linked in",
         icons: {
-          light: SocialFacebookImg,
-          dark: SocialFacebookImgDark
+          light: SocialLinkedInImg,
+          dark: SocialLinkedInImgDark
         },
-        link: "https://www.facebook.com/dscmait"
+        link: "https://www.linkedin.com/company/developer-students-club-mait/mycompany"
       },
       {
         name: "twitter",
@@ -448,7 +332,7 @@ export default {
           light: SocialTwitterImg,
           dark: SocialTwitterImgDark
         },
-        link: "https://twitter.com/dscmait"
+        link: "https://twitter.com/dsc_mait"
       },
       {
         name: "instagram",
@@ -456,7 +340,7 @@ export default {
           light: SocialInstaImg,
           dark: SocialInstaImgDark
         },
-        link: "https://www.instagram.com/dscmait"
+        link: "https://www.instagram.com/dsc_mait/"
       }
     ],
     // sponsorButton: {
@@ -537,7 +421,7 @@ export default {
           { id: "activity1", url: ActivityImg1 },
           { id: "activity2", url: ActivityImg2 },
           { id: "activity3", url: ActivityImg3 },
-          { id: "activity4", url: ActivityImg4 }
+          { id: "activity4", url: ActivityImg1 }
         ],
         delay: 4000,
         gradient: { id: "activityGradient", url: ActivityGradient }
@@ -594,69 +478,71 @@ export default {
         desc: "",
         img: GoodHealthAndWellBeingImg,
         quote:
-          "When I look around this room, I see quick learners, creative thinkers, and natural risk takers who are not only the leaders of tomorrow, but the leaders of today. You have the power to enact positive change right here right now."
+          "You can start by promoting and protecting your own health and the health of those around you, by making well-informed choices, practicing safe sex, and vaccinating your children. You can raise awareness in your community about the importance of good health, healthy lifestyles, as well as peoples’ rights to quality health care services -especially for the most vulnerable, such as women and children."
       },
       {
-        person: "Kory Jeffrey",
+        person: "Quality Education",
         desc: "",
         img: QualityEducationImg,
         quote:
-          "Hack the North is North America’s premier hackathon. It brings together the best minds from around the world and takes care of all the logistics so that they can focus on learning and creating. Can’t wait to see what they do next year."
+          "Ask our governments to place education as a priority in both policy and practice. Lobby our governments to make firm commitments to provide free primary school education to all, including vulnerable or marginalized groups."
       },
       {
-        person: "Kimber Schlegelmilch",
-        desc: "Lyft",
+        person: "Sustainable Cities",
+        desc: "",
         img: SustainableCitiesImg,
         quote:
-          "Hack the North is one of the best hackathons I've experienced — the organizers are incredible, the projects produced at the end of the weekend are really impressive, and the energy of students and mentors remains insanely high throughout the event."
+          " Develop a vision for your building, street, and neighbourhood, and act on that vision. Are there enough jobs? Can your children walk to school safely? Can you walk with your family at night? How far is the nearest public transport? What’s the air quality like? What are your shared public spaces like? The better the conditions you create in your community, the greater the effect on quality of life."
       },
       {
-        person: "Alexis Ohanian",
-        desc: "Co-founder of Reddit",
+        person: "Decent Work And Economic Growth",
+        desc: "",
         img: DecentWorkImg,
         quote:
-          "There is an undeniable reputation throughout tech of the kind of engineering talent that comes out of the University of Waterloo. The students here are probably going to be the business leaders of this century."
+          "Providing youth with the best opportunity to transition to a decent job calls for investing in education and training of the highest possible quality, providing youth with skills that match labour market demands, giving them access to social protection and basic services regardless of their contract type, as well as levelling the playing field."
       },
       {
-        person: "Alex",
-        desc: "Hack the North 2017 Finalist",
+        person: "Industry, Innovation, & Infrastructure",
+        desc: "",
         img: IndustryImg,
         link: "https://devpost.com/software/doppel-gallery",
         quote:
-          "I collaborated with different people and had the chance to talk to many interesting people. I got a lot of perspective on the beginning to end of a software development project. My team was able to go from an idea to a working app that we could present to people. It was a really unique experience."
+          "Establish standards and promote regulations that ensure company projects and initiatives are sustainably managed. Collaborate with NGOs and the public sector to help promote sustainable growth within developing countries. Think about how industry impacts on your life and well-being and use social media to push for policymakers to prioritize the SDGs."
       },
       {
-        person: "Bruno",
-        desc: "Hack the North 2018 First-time Hacker",
+        person: "Reduced Inequalities",
+        desc: "",
         img: ReducedInequalitiesImg,
         link: "https://devpost.com/software/instaface",
         quote:
-          "Hack the North was both my first international event and hackathon. I was quite nervous about leaving Brazil and going to the event but once there, everything was better than I could have ever imagined. I met so many cool and interesting people from all over the globe, made a lot of new friends and built something very cool on very little sleep with my team, overall an amazing experience!"
+          "Reducing inequality requires transformative change. Greater efforts are needed to eradicate extreme poverty and hunger, and invest more in health, education, social protection, and decent jobs - especially for young people, migrants and refugees and other vulnerable communities. Within countries, it is important to empower and promote inclusive social and economic growth. We can ensure equal opportunity and reduce inequalities of income if we eliminate discriminatory laws, policies, and practices."
       },
       {
-        person: "Jacky",
-        desc: "Hack the North 2018 Experienced Hacker",
-        img: JackyHackerHeadshotImg,
+        person: "Climate Action",
+        desc: "",
+        img: ClimateActionImg,
         link: "https://devpost.com/software/tappit-crypto-payments-over-nfc",
         quote:
-          "Hack the North was – and still is – one of the best 36 hours I’ve ever had. Everything from the caffeine and stress-relief dogs to the amazing speakers, mentors, and organizers. It was amazing when you really needed to get a bite or take a break to walk around and see everyone’s amazing projects. Hack the North was a lot of ‘firsts’ and I hope it will be the same for many more in the future."
+          "Weatherize your home and power it with renewable energy, invest in energy-efficient appliances, reduce water waste, eat the food you buy and make less of it meat, buy better bulbs, pull the plugs, drive a full-efficient vehicle, rethink planes, trains and automobiles, and shrink your carbon profile."
       },
       {
-        person: "Kevin",
-        desc: "Hack the North 2014 Finalist",
-        img: KevinHackerHeadshotImg,
+        person: "Open Innovation",
+        desc: "",
+        img: OpenInnovationImg,
         link: "https://hackthenorth.devpost.com/submissions/27029-open-pokemon",
         quote:
-          "Hack the North was a weekend where I could learn and start a passion for building great products. The experience was transformative and led me to where I am today. What really stood out to me was this sense of camaraderie between different hackers. I walked away from that weekend with so much more knowledge, and I made a lot of close, new friends."
+          "Innovate Anythink that can make an impact"
       },
       {
-        person: "Michelle",
-        desc: "Hack the North 2015/2016 Finalist",
-        img: MichelleHackerHeadshotImg,
+        person: "Explore More",
+        desc: "",
+        img: ExploreMoreImg,
         link: "https://devpost.com/software/modernized-weasley-clock-yotu43",
         quote:
-          "Hack the North was my first (and second) hackathon, and the experience is still unforgettable! Everything Hack the North provided – inspiring speakers, mentors, workshops, food, coffee and free swag – contributed to an awesome supportive environment that made it really fun to hack away for those 36 hours."
-      }
+          "Explore more themes"
+      },
+      
+
     ]
   },
   faq: {
@@ -738,7 +624,7 @@ export default {
       },
       {
         text: "Code of Conduct",
-        hyperlink: "what will you create to be put in",
+        hyperlink: "https://devfolio.co/code-of-conduct",
         newTab: true
       }
     ],
@@ -749,19 +635,19 @@ export default {
         link: "mailto:hackthesolution@gmail.com "
       },
       {
-        name: "Facebook",
-        img: SocialFacebookImg,
-        link: "https://www.facebook.com/hackthenorth"
+        name: "Linked In",
+        img: SocialLinkedInImg,
+        link: "https://www.linkedin.com/company/developer-students-club-mait/mycompany"
       },
       {
         name: "Twitter",
         img: SocialTwitterImg,
-        link: "https://twitter.com/hackthenorth"
+        link: "https://twitter.com/dsc_mait"
       },
       {
         name: "Instagram",
         img: SocialInstaImg,
-        link: "https://www.instagram.com/hackthenorth/"
+        link: "https://www.instagram.com/dsc_mait/"
       }
     ],
     team: shuffle(team),

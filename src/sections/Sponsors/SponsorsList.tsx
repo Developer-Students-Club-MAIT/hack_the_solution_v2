@@ -32,7 +32,7 @@ const sponsorHeights = {
     wm: 35
   },
   partner: {
-    h: 45,
+    h: 105,
     wm: 35
   }
 };
@@ -128,7 +128,7 @@ const SponsorsList = () => (
     </SponsorContainer>
 
     <Text as="h3" variant="subheading">
-      Our Communities
+      Community Partners
     </Text>
     <SponsorContainer>
       {partners.map(partner => (

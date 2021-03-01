@@ -144,6 +144,8 @@ const Gear: React.FC<GearProps> = ({
                 left: 0,
                 willChange: "opacity",
                 backgroundSize: "cover",
+            borderRadius:"200rem",
+
                 backgroundPosition: "center",
                 zIndex: 5
               }}
@@ -163,6 +165,7 @@ const Gear: React.FC<GearProps> = ({
             left: 0,
             willChange: "opacity",
             backgroundSize: "cover",
+            borderRadius:"200rem",
             backgroundPosition: "center"
           }}
         />

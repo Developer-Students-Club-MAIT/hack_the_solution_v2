@@ -8,7 +8,18 @@
 /* Sponsor assets (logos, branding, etc) */
 export { default as WaterlooEngLogoImg } from "./sponsors/waterloo-eng.png";
 export { default as SponsorLogoImg } from "./sponsors/sponsor.png";
-export { default as TechyonLogoImg } from "./sponsors/techyon.png";
+export {default as devfolioLogoImg} from "./sponsors/Devfolio_Logo-Colored@2x.png";
+export {default as maticLogoImg} from "./sponsors/Matic_Logo-Blue@2x.png";
+export {default as portisLogoImg} from "./sponsors/Portis_Logo-Colored_Black@2x.png";
+export {default as tezosLogoImg} from "./sponsors/Tezos_Logo-Colored@2x.png";
+export {default as echoarLogoImg} from "./sponsors/echoAR - Logo 2020 - Dark.png";
+export {default as glimpseLogoImg} from "./sponsors/glimpse_logo_w_text.png";
+export {default as wolframLogoImg} from "./sponsors/wolfram.png";
+export {default as interviewLogoImg} from "./sponsors/cake_logo_blue_gray.svg";
+export {default as sashidoLogoImg} from "./sponsors/sashido-logo-for sites.png";
+export {default as balsamiqLogoImg} from "./sponsors/balsamiq-logo-screen.png";
+export {default as replItLogoImg} from "./sponsors/repl_it.png";
+export { default as DSCMaitLogo } from "./logos/dsc_mait.png";
 
 /* Logos */
 export { default as LogoDarkImg } from "./logos/primary-dark.svg";
@@ -19,8 +30,8 @@ export { default as LogoIconDarkImg } from "./logos/icon-dark.svg"; // just the 
 export { default as LogoIconLightImg } from "./logos/icon-light.svg"; // just the gear
 
 /* Social icons */
-export { default as SocialFacebookImg } from "./icons/book.svg";
-export { default as SocialFacebookImgDark } from "./icons/book-dark.svg";
+export { default as SocialLinkedInImg } from "./icons/linkedin-icon.svg";
+export { default as SocialLinkedInImgDark } from "./icons/linkedin-dark.svg";
 export { default as SocialEmailImg } from "./icons/mail.svg";
 export { default as SocialInstaImg } from "./icons/camera.svg";
 export { default as SocialInstaImgDark } from "./icons/camera-dark.svg";
@@ -103,28 +114,28 @@ export {
 export { default as GearBackgroundImg } from "./photos/gear.svg";
 
 /* Activities */
-export { default as ActivityGradient } from "./photos/activity.png";
+export { default as ActivityGradient } from "./photos/activity.jpg";
 export { default as ActivityImg1 } from "./photos/activity1.png";
 export { default as ActivityImg2 } from "./photos/activity2.png";
 export { default as ActivityImg3 } from "./photos/activity3.png";
 export { default as ActivityImg4 } from "./photos/activity4.png";
 
 /* Hackers */
-export { default as HackerGradient } from "./photos/hackers.png";
+export { default as HackerGradient } from "./photos/hackers.jpg";
 export { default as HackerImg1 } from "./photos/hackers1.png";
 export { default as HackerImg2 } from "./photos/hackers2.png";
 export { default as HackerImg3 } from "./photos/hackers3.png";
 export { default as HackerImg4 } from "./photos/hackers4.png";
 
 /* Hardware */
-export { default as HardwareGradient } from "./photos/hardware.png";
+export { default as HardwareGradient } from "./photos/hardware.jpg";
 export { default as HardwareImg1 } from "./photos/hardware1.png";
 export { default as HardwareImg2 } from "./photos/hardware2.png";
 export { default as HardwareImg3 } from "./photos/hardware3.png";
 export { default as HardwareImg4 } from "./photos/hardware4.png";
 
 /* Speaker */
-export { default as SpeakerGradient } from "./photos/speaker.png";
+export { default as SpeakerGradient } from "./photos/speaker.jpg";
 export { default as SpeakerImg1 } from "./photos/speaker1.png";
 export { default as SpeakerImg2 } from "./photos/speaker2.png";
 export { default as SpeakerImg3 } from "./photos/speaker3.png";
@@ -156,6 +167,8 @@ export {default as IndustryImg} from "./photos/industry.png";
 export {default as QualityEducationImg} from "./photos/quality_education.png";
 export {default as ReducedInequalitiesImg} from "./photos/reduced_inequalities.png";
 export {default as SustainableCitiesImg} from "./photos/sustainable_cities.png";
+export {default as OpenInnovationImg} from "./photos/open_innovation.jpeg";
+export {default as ExploreMoreImg} from "./photos/Explore_more_goals.jpeg";
 
 
 

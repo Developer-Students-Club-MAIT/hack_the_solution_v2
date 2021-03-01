@@ -125,7 +125,7 @@ const Footer = () => {
             newTab
             href={social.link}
           >
-            <img src={social.img} alt={social.name} />
+            <img src={social.img} alt={social.name} style={{maxHeight:"1.2rem"}}/>
           </Link>
         ))}
       </Social>

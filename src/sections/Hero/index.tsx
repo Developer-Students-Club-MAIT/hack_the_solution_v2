@@ -204,13 +204,13 @@ const Hero = () => {
         <Text variant="subheader" as="p">
           <span style={{ whiteSpace: "pre" }}>{siteCopy.hero.subtitle}</span>
         </Text>
-        
-      <DevFolioButton
-        className="cta"
-        onClick={() => window.open(siteCopy.hero.devfolioLink)}
-      >
-        {siteCopy.hero.devfolioText}
-      </DevFolioButton>
+
+      <div 
+        className="apply-button" 
+        data-hackathon-slug="hack-the-solution" 
+        data-button-theme="dark"
+        style={{height: "44px", width: "312px"}}
+      ></div>
       </Content>
       {width <= 768 ? (
         <MobileWrapper className="parallax">
