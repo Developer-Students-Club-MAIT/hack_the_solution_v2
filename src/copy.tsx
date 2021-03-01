@@ -445,7 +445,7 @@ export default {
           { id: "hardware1", url: HardwareImg1 },
           { id: "hardware2", url: HardwareImg2 },
           { id: "hardware3", url: HardwareImg3 },
-          { id: "hardware4", url: HardwareImg4 }
+          { id: "hardware4", url: HardwareImg2 }
         ],
         delay: 8000,
         gradient: { id: "hardwareGradient", url: HardwareGradient }
