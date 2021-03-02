@@ -39,9 +39,9 @@ const Links = styled.div`
 
 const CarouselWrapper = styled.div`
   position: relative;
-  margin: 15px -10% 0 -10%;
+  margin: 15px auto 0 auto;
   & > .carousel {
-    width: 95vw;
+    width: 30vw;
     height: 70px;
 
     ${props => props.theme.mediaQueries.tabletMobile`

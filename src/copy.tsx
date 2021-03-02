@@ -89,6 +89,11 @@ interviewLogoImg,
 sashidoLogoImg,
 balsamiqLogoImg,
 replItLogoImg,
+DeekshaMadanImg,
+IshitaAroraImg,
+DeepikaRanaImg,
+HarshitaChadhaImg,
+SakshamAroraImg,
 } from "static/img";
 
 interface Sponsor {
@@ -113,55 +118,55 @@ const sponsors: Sponsor[] = [
 
   {
     name: "Matic",
-    tier: "silver",
+    tier: "bronze",
     imgSrc: maticLogoImg,
     link: "https://matic.network/"
   },
   {
     name: "Portis",
-    tier: "silver",
+    tier: "bronze",
     imgSrc: portisLogoImg,
     link: "https://www.portis.io/"
   },
   {
     name: "Tezos",
-    tier: "silver",
+    tier: "bronze",
     imgSrc: tezosLogoImg,
     link: "https://tezos.com/"
   },
   {
     name: "Echo AR",
-    tier: "silver",
+    tier: "bronze",
     imgSrc: echoarLogoImg,
     link: "https://console.echoar.xyz/#/auth/register-hackathon?code=HackTheSolution"
   },
   {
     name: "Glimpse",
-    tier: "silver",
+    tier: "bronze",
     imgSrc: glimpseLogoImg,
     link: "http://www.joinglimpse.com/"
   },
   {
     name: "WolFram",
-    tier: "silver",
+    tier: "bronze",
     imgSrc: wolframLogoImg,
     link: "https://www.wolfram.com/wolfram-one/"
   },
   {
     name: "Interview Cake",
-    tier: "silver",
+    tier: "bronze",
     imgSrc: interviewLogoImg,
     link: "https://interviewcake.com/"
   },
   {
     name: "SashiDo",
-    tier: "silver",
+    tier: "bronze",
     imgSrc: sashidoLogoImg,
     link: "https://www.sashido.io/en/"
   },
   {
     name: "Balsamiq",
-    tier: "silver",
+    tier: "bronze",
     imgSrc: balsamiqLogoImg,
     link: "https://balsamiq.com/",
     // feature: {
@@ -173,13 +178,13 @@ const sponsors: Sponsor[] = [
   },
   {
     name: "Repl.it",
-    tier: "silver",
+    tier: "bronze",
     imgSrc: replItLogoImg,
     link: "https://repl.it/"
   },
   // {
   //   name: "Hack the North",
-  //   tier: "silver",
+  //   tier: "bronze",
   //   imgSrc: SponsorLogoImg,
   //   link: "https://hackthenorth.com",
   //   feature: {
@@ -191,7 +196,7 @@ const sponsors: Sponsor[] = [
   // },
   // {
   //   name: "Hack the North",
-  //   tier: "silver",
+  //   tier: "bronze",
   //   imgSrc: SponsorLogoImg,
   //   link: "https://hackthenorth.com",
   //   feature: {
@@ -259,52 +264,27 @@ const shuffle = <T extends {}>(array: T[]) => {
 const team = [
   {
     text: "Made with 🤯 by Deepika Rana, Lead Organiser",
-    img: OrganizerHeadshotImg,
+    img: DeepikaRanaImg,
     alt: "Hack the Solution logo"
   },
   {
     text: "Made with 🍟 by Harshita Chadha, Co-organiser, Operations",
-    img: OrganizerHeadshotImg,
+    img: HarshitaChadhaImg,
     alt: "Hack the Solution logo"
   },
   {
     text: "Made with ☕️ by Deeksha Madan, Co-organiser, Management",
-    img: OrganizerHeadshotImg,
+    img: DeekshaMadanImg,
     alt: "Hack the Solution logo"
   },
   {
     text: "Made with 💫 by Ishita Arora, Co-organiser, Marketing",
-    img: OrganizerHeadshotImg,
+    img: IshitaAroraImg,
     alt: "Hack the Solution logo"
   },
   {
     text: "Made with 🎮 by Saksham Arora, Co-organiser, Logistics",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the Solution logo"
-  },
-  {
-    text: "Made with 🤯 by Deepika Rana, Lead Organiser",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the Solution logo"
-  },
-  {
-    text: "Made with 🍟 by Harshita Chadha, Co-organiser, Operations",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the Solution logo"
-  },
-  {
-    text: "Made with ☕️ by Deeksha Madan, Co-organiser, Management",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the Solution logo"
-  },
-  {
-    text: "Made with 💫 by Ishita Arora, Co-organiser, Marketing",
-    img: OrganizerHeadshotImg,
-    alt: "Hack the Solution logo"
-  },
-  {
-    text: "Made with 🎮 by Saksham Arora, Co-organiser, Logistics",
-    img: OrganizerHeadshotImg,
+    img: SakshamAroraImg,
     alt: "Hack the Solution logo"
   },
   
@@ -350,7 +330,7 @@ export default {
   hero: {
     firstLine: "",
     secondLine: "Hack The Solution.",
-    keyWords: ["Innovate", "Design", "Built", "Challenge", "Learn"],
+    keyWords: ["Innovate", "Design", "Build", "Challenge", "Learn"],
     subtitle: "Virtual Hackathon  ·  March 27 - 28, 2021  ·  DSC MAIT",
     devfolioText: "Apply With Devfolio",
     devfolioLink: "#",
@@ -474,32 +454,32 @@ export default {
       "The themes for Hack The Solution have been derived from United Nations 17 sustainable goals. They recognize that ending poverty and other deprivations must go hand-in-hand with strategies that improve health and education, reduce inequality, and spur economic growth – all while tackling climate change and working to preserve our oceans and forests.",
     stories: [
       {
-        person: "Good Wealth And Well Being",
+        person: "Good Health And Well Being",
         desc: "",
         img: GoodHealthAndWellBeingImg,
         quote:
-          "You can start by promoting and protecting your own health and the health of those around you, by making well-informed choices, practicing safe sex, and vaccinating your children. You can raise awareness in your community about the importance of good health, healthy lifestyles, as well as peoples’ rights to quality health care services -especially for the most vulnerable, such as women and children."
+          "Good health and personal well-being are at the center of a healthy lifestyle. Under this theme, hackers will develop solutions to raise community awareness about the importance of good health, healthy lifestyles, as well as peoples’ rights to quality health care services -especially for the most vulnerable, such as women and children. "
       },
       {
         person: "Quality Education",
         desc: "",
         img: QualityEducationImg,
         quote:
-          "Ask our governments to place education as a priority in both policy and practice. Lobby our governments to make firm commitments to provide free primary school education to all, including vulnerable or marginalized groups."
+          "Education is one of the most essential components of a person’s life. Not only does it help people rise above their economic struggles but it helps them learn cool concepts that they can use to further their goals and aspirations. Some of the challenges that can be tackled under this theme include accessibility of quality education, alternative learning platforms, EdTech applications and many more."
       },
       {
         person: "Sustainable Cities",
         desc: "",
         img: SustainableCitiesImg,
         quote:
-          " Develop a vision for your building, street, and neighbourhood, and act on that vision. Are there enough jobs? Can your children walk to school safely? Can you walk with your family at night? How far is the nearest public transport? What’s the air quality like? What are your shared public spaces like? The better the conditions you create in your community, the greater the effect on quality of life."
+          "Develop a vision for your building, street, and neighbourhood, and act on that vision. Are there enough jobs? Can your children walk to school safely? Can you walk with your family at night? How far is the nearest public transport? What’s the air quality like? What are your shared public spaces like? The better the conditions you create in your community, the greater the effect on quality of life."
       },
       {
         person: "Decent Work And Economic Growth",
         desc: "",
         img: DecentWorkImg,
         quote:
-          "Providing youth with the best opportunity to transition to a decent job calls for investing in education and training of the highest possible quality, providing youth with skills that match labour market demands, giving them access to social protection and basic services regardless of their contract type, as well as levelling the playing field."
+          "Providing youth with the best opportunity to transition to a decent job calls for investing in education and training of the highest possible quality, providing youth with skills that match labour market demands, giving them access to social protection and basic services regardless of their contract type, as well as levelling the playing field. Under this theme, hackers will work to bridge the gap between job aspirants and suitable opportunities."
       },
       {
         person: "Industry, Innovation, & Infrastructure",
@@ -507,7 +487,7 @@ export default {
         img: IndustryImg,
         link: "https://devpost.com/software/doppel-gallery",
         quote:
-          "Establish standards and promote regulations that ensure company projects and initiatives are sustainably managed. Collaborate with NGOs and the public sector to help promote sustainable growth within developing countries. Think about how industry impacts on your life and well-being and use social media to push for policymakers to prioritize the SDGs."
+          "Establish standards and promote regulations that ensure company projects and initiatives are sustainably managed. Collaborate with NGOs and the public sector to help promote sustainable growth within developing countries. Think about how industry impacts on your life and well-being and use social media to push for policymakers to prioritize the SDGs. These are just some of the problems that hacks made under this category will tackle."
       },
       {
         person: "Reduced Inequalities",
@@ -515,7 +495,7 @@ export default {
         img: ReducedInequalitiesImg,
         link: "https://devpost.com/software/instaface",
         quote:
-          "Reducing inequality requires transformative change. Greater efforts are needed to eradicate extreme poverty and hunger, and invest more in health, education, social protection, and decent jobs - especially for young people, migrants and refugees and other vulnerable communities. Within countries, it is important to empower and promote inclusive social and economic growth. We can ensure equal opportunity and reduce inequalities of income if we eliminate discriminatory laws, policies, and practices."
+          "Greater efforts are needed to eradicate extreme poverty and hunger, and invest more in health, education, social protection, and decent jobs - especially for young people, migrants and refugees and other vulnerable communities. Within countries, it is important to empower and promote inclusive social and economic growth. We can ensure equal opportunity and reduce inequalities of income if we eliminate discriminatory laws, policies, and practices. Under this theme, we encourage you to build prgressive hacks that bring transformative change to reduce inequalities."
       },
       {
         person: "Climate Action",
@@ -523,7 +503,7 @@ export default {
         img: ClimateActionImg,
         link: "https://devpost.com/software/tappit-crypto-payments-over-nfc",
         quote:
-          "Weatherize your home and power it with renewable energy, invest in energy-efficient appliances, reduce water waste, eat the food you buy and make less of it meat, buy better bulbs, pull the plugs, drive a full-efficient vehicle, rethink planes, trains and automobiles, and shrink your carbon profile."
+          "Weatherizing homes and powering them with renewable energy, investing in energy-efficient appliances, reducing water waste, eating the food you buy and making less of it meat, buying better bulbs, pulling the plugs, driving a full-efficient vehicle, rethinking planes, trains and automobiles, and shrinking your carbon profile, these are some of the pledges on which hacks under this theme can be based."
       },
       {
         person: "Open Innovation",
@@ -531,15 +511,15 @@ export default {
         img: OpenInnovationImg,
         link: "https://hackthenorth.devpost.com/submissions/27029-open-pokemon",
         quote:
-          "Innovate Anythink that can make an impact"
+          "Conforming to standards is hard, we understand. Thus we have a special category for all you wild innovators out there. Under Open innovation, you get to submit your very own original hacks, theme no bar."
       },
       {
-        person: "Explore More",
+        person: "Explore More themes",
         desc: "",
         img: ExploreMoreImg,
         link: "https://devpost.com/software/modernized-weasley-clock-yotu43",
         quote:
-          "Explore more themes"
+          (<span>Take sustainable goals, make them 17. In 2015, the united nations came up with 17 holistic goals that help you grow alongside your planet and community. <a target="_blank" href="https://sdgs.un.org/goals">Click here</a> to explore and adopt a few more and make the world a better, more inclusive place!"</span>)
       },
       
 
@@ -562,11 +542,6 @@ export default {
         question: "Can we apply as a team?",
         answer:
           "Sure! The hackathon accepts teams with a minimum of 2 members. The maximum number of team members that you can have is 4."
-      },
-      {
-        question: "How do I get to Hack the North?",
-        answer:
-          "We will be providing several buses from schools within driving distance of the University of Waterloo, as well as from nearby airports. For students who need to fly to Hack the North, we subsidize as much of your plane ticket as possible."
       },
       {
         question: "What if I don't have a team or an idea?",

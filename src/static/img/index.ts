@@ -174,7 +174,15 @@ export {default as ExploreMoreImg} from "./photos/Explore_more_goals.jpeg";
 
 
 /* Logos */
-export {default as HackTheSolution} from "./logos/main_logo.svg";
-export {default as DSCLogo} from "./logos/DSCLogo.jpg";
+export {default as HackTheSolution} from "./logos/main_logo_sm.png";
+export {default as DSCLogo} from "./logos/dsc_white.png";
+
+
+/* Organizers */
+export {default as DeekshaMadanImg} from "./photos/DeekshaMadan.jpeg";
+export {default as IshitaAroraImg} from "./photos/IshitaArora.jpg";
+export {default as DeepikaRanaImg} from "./photos/DeepikaRana.png";
+export {default as HarshitaChadhaImg} from "./photos/HarshitaChadha.jpg";
+export {default as SakshamAroraImg} from "./photos/SakshamArora.jpg";
 
 

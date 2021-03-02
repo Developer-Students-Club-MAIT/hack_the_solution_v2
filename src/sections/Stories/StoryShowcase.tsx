@@ -336,16 +336,7 @@ const StoryShowcase = () => {
           "{curStories[FEATURED_BUBBLE_INDEX].quote}"
         </Text>
         <Text as="span" variant="sectionText">
-          {curStories[FEATURED_BUBBLE_INDEX].person},{" "}
-          <Link
-            className={
-              curStories[FEATURED_BUBBLE_INDEX].link ? "shown" : "hidden"
-            }
-            newTab
-            href={curStories[FEATURED_BUBBLE_INDEX].link || ""}
-          >
-            {curStories[FEATURED_BUBBLE_INDEX].desc}
-          </Link>
+          {curStories[FEATURED_BUBBLE_INDEX].person}
           <span
             className={
               !curStories[FEATURED_BUBBLE_INDEX].link ? "shown" : "hidden"
