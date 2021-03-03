@@ -188,10 +188,10 @@ const NavBar: React.FC = () => {
       >
         <NavBarWidthLimiter id="nav-bar">
           <NavLogoButton onClick={() => scrollTo("home")} variant="nav">
-            <NavLogoImg
+            {/* <NavLogoImg
               alt=""
               src={scrolledDown ? copy.nav.logo.light : copy.nav.logo.dark}
-            />
+            /> */}
           </NavLogoButton>
           <LinksContainer scrolledDown={scrolledDown}>
             {tablet ? (
