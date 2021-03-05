@@ -84,6 +84,7 @@ export {
   default as ForegroundHeroImg
 } from "./hero/illustration-foreground.png";
 
+export {default as HeroBg} from "./hero/light-bg.gif";
 /* Headshots (leaders, htn team, etc) */
 export { default as AlexHackerHeadshotImg } from "./headshots/alex-hacker.jpg";
 export {

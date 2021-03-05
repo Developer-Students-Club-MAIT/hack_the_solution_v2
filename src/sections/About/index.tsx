@@ -122,7 +122,7 @@ const getResponsiveObject = (
 const gearConfigs: GearConfigProps[] = [
   {
     x: getResponsiveObject(135, 85, -110),
-    y: getResponsiveObject(0, 0, 0),
+    y: getResponsiveObject(20, 0, 0),
     h: getResponsiveObject(380, 380, 270),
     id: "gear1"
   },

@@ -19,7 +19,7 @@ import Parallax from "react-rellax";
 import { Text,Button } from "@hackthenorth/north";
 
 import siteCopy from "copy";
-
+import {HeroBg} from "../../static/img";
 const getWindowDimensions = () => {
   const { innerWidth: width, innerHeight: height } = window;
   return {
@@ -55,8 +55,8 @@ const HeroWrapper = styled(SectionWrapper)`
   max-height: 1500px;
   max-width: 100%;
   overflow: hidden;
-  background-image: url(${GradientBg});
-  background-position: 0 ${backgroundPercentage}%;
+  background-color:#EFA4A1;
+  //background-position: 0 ${backgroundPercentage}%;
 
   ${props => props.theme.mediaQueries.tablet`
     height: auto;
@@ -101,11 +101,19 @@ const Image = styled.img<ImageProps>`
   bottom: ${props => (props.bottom ? props.bottom : "0")};
   pointer-events: none;
 `;
+const ImageContainer = styled.div`
+  width:100vw;
+  position:relative;
+  top: 600px;
 
+`;
 const ImageFg = styled(Image)`
-  width: 110vw;
-  left: -70px;
-
+  width: 60vw;
+  position:absolute;
+  top:400px;
+  margin:0 auto;
+  left: 60%;
+  transform: translateX(-50%);
   ${props => props.theme.mediaQueries.tablet`
     width: 150%;
     left: 0;
@@ -212,7 +220,8 @@ const Hero = () => {
         style={{height: "44px", width: "312px"}}
       ></div>
       </Content>
-      {width <= 768 ? (
+      <ImageFg src={HeroBg} alt=""/>
+      {/* {width <= 768 ? (
         <MobileWrapper className="parallax">
           <Lottie options={mobileOptions} />
           <ImageFg alt="" bottom={"auto"} src={IllustrationFg} />
@@ -244,7 +253,7 @@ const Hero = () => {
             <ImageFg alt="" bottom={"auto"} src={IllustrationFg} />
           </Parallax>
         </>
-      )}
+      )} */}
     </HeroWrapper>
   );
 };
