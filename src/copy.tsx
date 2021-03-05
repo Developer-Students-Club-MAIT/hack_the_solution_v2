@@ -626,7 +626,7 @@ export default {
       }
     ],
     team: shuffle(team),
-    defaultOrganizerText: "Made with 💛"
+    defaultOrganizerText: "Made with 💛 using hackthenorth.com"
   },
   leaders: {
     title: "Be inspired by industry leaders",
