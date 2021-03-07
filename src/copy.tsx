@@ -94,6 +94,8 @@ IshitaAroraImg,
 DeepikaRanaImg,
 HarshitaChadhaImg,
 SakshamAroraImg,
+cbLogoImg,
+gfgLogoImg
 } from "static/img";
 
 interface Sponsor {
@@ -181,6 +183,18 @@ const sponsors: Sponsor[] = [
     tier: "bronze",
     imgSrc: replItLogoImg,
     link: "https://repl.it/"
+  },
+  {
+    name: "Geegs For Geeks",
+    tier: "bronze",
+    imgSrc: gfgLogoImg,
+    link: "https://www.geeksforgeeks.org/"
+  },
+  {
+    name: "Coding Blocks",
+    tier: "bronze",
+    imgSrc: cbLogoImg,
+    link: "https://codingblocks.com/"
   },
   // {
   //   name: "Hack the North",

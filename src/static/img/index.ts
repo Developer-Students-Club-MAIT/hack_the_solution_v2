@@ -20,6 +20,8 @@ export {default as sashidoLogoImg} from "./sponsors/sashido-logo-for sites.png";
 export {default as balsamiqLogoImg} from "./sponsors/balsamiq-logo-screen.png";
 export {default as replItLogoImg} from "./sponsors/repl_it.png";
 export { default as DSCMaitLogo } from "./logos/dsc_mait.png";
+export {default as gfgLogoImg} from "./logos/gfg.png";
+export {default as cbLogoImg} from "./logos/cb_grey.png";
 
 /* Logos */
 export { default as LogoDarkImg } from "./logos/primary-dark.svg";
