@@ -13,7 +13,17 @@ const { sponsorsSection,discordSection } = siteCopy;
 const SponsorsWrapper = styled(SectionWrapper)`
   color: ${({ theme }) => theme.globalConstants.color.textDark};
 `;
-
+const DiscordSection = styled.div`
+  //background:#000;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  max-width:50rem;
+  text-align:center;
+`;
 const MainContent = styled.div`
   display: grid;
   grid-template-areas:
@@ -97,7 +107,8 @@ const SponsorButton = styled(Button)`
 
 const Sponsors = () => (
   <SponsorsWrapper id="sponsors-cta">
-    <MainContent>
+  
+      <DiscordSection>
       <Text className="heading" as="h3" variant="sectionHeading">
         {discordSection.heading}
       </Text>
@@ -109,8 +120,8 @@ const Sponsors = () => (
       >
         {discordSection.cta.label}
       </SponsorButton>
-    </MainContent>
-
+      </DiscordSection>
+   
     <MainContent>
       <Text className="heading" as="h3" variant="sectionHeading">
         {sponsorsSection.heading}

@@ -142,15 +142,31 @@ const ParallaxWrapper = styled.div`
 
 
 const DevFolioButton = styled(Button)`
-  width: 200px;
+  width: 310px;
   padding: 1em;
-
-  border-radius: ${props => props.theme.globalConstants.borderRadius.button}px;
+  display:block;
+  border-radius: 4px;
   transition: opacity 250ms ease-in-out;
-
+  position:relative;
+  z-index:100;
   &:hover {
     opacity: 0.8;
   }
+  ${props => props.theme.mediaQueries.tablet`
+  margin:0 auto;
+`}
+
+${props => props.theme.mediaQueries.tabletMobile`
+margin:0 auto;
+`}
+
+${props => props.theme.mediaQueries.mobile`
+margin:0 auto;
+`}
+
+${props => props.theme.mediaQueries.smallMobile`
+margin:0 auto;
+`}
 `;
 
 const LottieWrapper = styled.div`
@@ -219,6 +235,13 @@ const Hero = () => {
         data-button-theme="dark"
         style={{height: "44px", width: "312px"}}
       ></div>
+      
+      <DevFolioButton
+        className="cta"
+        onClick={() => window.open(siteCopy.discordSection.cta.link)}
+      >
+        {"Join Our Discord Server"}
+      </DevFolioButton>
       </Content>
       <ImageFg src={HeroBg} alt=""/>
       {/* {width <= 768 ? (

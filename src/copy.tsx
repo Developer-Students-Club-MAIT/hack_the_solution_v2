@@ -457,8 +457,7 @@ export default {
         "Held in association with the 2021 Google Solution challenge Hack the Solution is the first student-run hackathon by this chapter of DSC. We believe that remarkable developers, designers, and innovators can help us solve challenges to end poverty, ensure prosperity, and protect the planet. The diversity and talent of the participating developers will contribute greatly to the success of our event. We want to establish a tech ecosystem and provide a platform for students to present their ideas of the future."
     },
     video: {
-      url:
-        "https://www.youtube-nocookie.com/embed/P3VhS7jvXN8?autoplay=1&rel=0&amp;showinfo=0",
+      url:"https://www.youtube-nocookie.com/embed/-p6sllZ7do8?autoplay=1&rel=0&amp;showinfo=0",
       closeIcon: CloseIconImg
     }
   },
