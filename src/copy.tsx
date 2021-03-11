@@ -363,7 +363,7 @@ export default {
       </>
     ),
     cta: {
-      link: "#",
+      link: "https://discord.gg/ZrxtHarW5W",
       label: "Go To Discord"
     },
   },
