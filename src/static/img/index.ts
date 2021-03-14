@@ -20,6 +20,8 @@ export {default as sashidoLogoImg} from "./sponsors/sashido-logo-for sites.png";
 export {default as balsamiqLogoImg} from "./sponsors/balsamiq-logo-screen.png";
 export {default as replItLogoImg} from "./sponsors/repl_it.png";
 export { default as DSCMaitLogo } from "./logos/dsc_mait.png";
+export { default as DSCUmitLogo } from "./logos/DSC_UMIT.png";
+
 export {default as gfgLogoImg} from "./logos/gfg.png";
 export {default as cbLogoImg} from "./logos/cb_grey.png";
 
@@ -183,7 +185,7 @@ export {default as DSCLogo} from "./logos/dsc_white.png";
 
 /* Organizers */
 export {default as DeekshaMadanImg} from "./photos/DeekshaMadan.jpeg";
-export {default as IshitaAroraImg} from "./photos/IshitaArora.jpg";
+export {default as AshishPapanaiImg} from "./photos/AshishPapanai.jpg";
 export {default as DeepikaRanaImg} from "./photos/DeepikaRana.png";
 export {default as HarshitaChadhaImg} from "./photos/HarshitaChadha.jpg";
 export {default as SakshamAroraImg} from "./photos/SakshamArora.jpg";

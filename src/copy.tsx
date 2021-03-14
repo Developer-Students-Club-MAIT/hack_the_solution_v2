@@ -12,6 +12,7 @@ import {
   MichelleHackerHeadshotImg,
   // Sponsors & Partners
   DSCMaitLogo,
+  DSCUmitLogo,
   SponsorLogoImg,
   SponsorIllustrationImg,
   
@@ -90,7 +91,7 @@ sashidoLogoImg,
 balsamiqLogoImg,
 replItLogoImg,
 DeekshaMadanImg,
-IshitaAroraImg,
+AshishPapanaiImg,
 DeepikaRanaImg,
 HarshitaChadhaImg,
 SakshamAroraImg,
@@ -255,7 +256,14 @@ const sponsors: Sponsor[] = [
     tier: "partner",
     imgSrc: DSCMaitLogo,
     link: "https://dscmait.xyz/"
+  },
+  {
+    name: "DSC Umit",
+    tier: "partner",
+    imgSrc: DSCUmitLogo,
+    link: "#"
   }
+  
 ];
 
 // Taken from https://github.com/Daplie/knuth-shuffle
@@ -292,8 +300,8 @@ const team = [
     alt: "Hack the Solution logo"
   },
   {
-    text: "Made with 💫 by Ishita Arora, Co-organiser, Marketing",
-    img: IshitaAroraImg,
+    text: "Made with 💫 by Ashish Papanai, Co-organiser, Marketing",
+    img: AshishPapanaiImg,
     alt: "Hack the Solution logo"
   },
   {
@@ -363,7 +371,7 @@ export default {
       </>
     ),
     cta: {
-      link: "https://discord.gg/ZrxtHarW5W",
+      link: "https://discord.gg/dXMVXUcdRG",
       label: "Go To Discord"
     },
   },
@@ -392,7 +400,7 @@ export default {
   about: {
     title: "Hack The Solution",
     sentence1:
-      "Hack The Solution is a student-run virtual event consisting of a 36-hour hackathon with webinars and workshops by GDEs and professional experts and fun challenges.",
+      "Hack The Solution is a student-run virtual event consisting of a 36-hour hackathon with mentorship from experts and fun challenges.",
     sentence2:
       "It will bring student developers to compete and develop creative solutions to real-world problems based on United Nations’ Sustainable goals. The hackathon is designed to solve local community problems, spark innovation, attract and educate new talent in accordance with the 2021 Solution Challenge.",
     gears: [
