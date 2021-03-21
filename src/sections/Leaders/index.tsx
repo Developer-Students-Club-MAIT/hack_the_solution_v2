@@ -78,7 +78,6 @@ const LeaderBubbleWrapper = styled.div`
   align-items: center;
   padding-right: 75px;
   text-align: left;
-  padding:2rem;
 `;
 const LeaderBubbleContent = styled.div`
     margin-left:1rem;
@@ -90,8 +89,8 @@ const JudgesWrapper = styled.div`
     width:80vw;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-rows: 200px;
-    grid-gap: 5px;
+    grid-auto-rows: 150px;
+    grid-gap: 20px;
   `;
 const CarouselWrapper = styled.div`
   grid-area: carousel;
@@ -169,7 +168,7 @@ const Leaders = () => (
       </Text>
       <JudgesWrapper>
         {getImages(copy.mentors.leaders)}
-        
+
       </JudgesWrapper>
     </Wrapper>
   </LeadersWrapper>
