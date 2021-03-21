@@ -1,35 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa132f8319be38d46b6f4053aeef130f",
+    "revision": "bf0e0d972c47d15c6bb11e5bed500c07",
     "url": "/index.html"
   },
   {
-    "revision": "87ce90e8ff16d02e2882",
-    "url": "/static/js/2.9bfb2cab.chunk.js"
+    "revision": "c1477f8d4d0fec1851e9",
+    "url": "/static/js/2.e42a5129.chunk.js"
   },
   {
-    "revision": "5473458eb2a810f302aa",
-    "url": "/static/js/3.dfc94396.chunk.js"
+    "revision": "68236abd69882943c6d1",
+    "url": "/static/js/3.10cd1374.chunk.js"
   },
   {
-    "revision": "d4ce28799d92ab853a84",
-    "url": "/static/js/4.d62ef754.chunk.js"
+    "revision": "dfea001e0e2fffb6bcd9",
+    "url": "/static/js/4.42c0933a.chunk.js"
   },
   {
-    "revision": "03cfe32b120b2c29a230",
-    "url": "/static/js/main.ae81a646.chunk.js"
+    "revision": "788356c1585820e5062b",
+    "url": "/static/js/main.75f89f03.chunk.js"
   },
   {
-    "revision": "bd2dfada47024a2d11f1",
-    "url": "/static/js/runtime~main.abe9986e.js"
+    "revision": "6c4452e7b31cf7c91099",
+    "url": "/static/js/runtime~main.a3813988.js"
   },
   {
     "revision": "05ae877b225064a49b01b72ea79bd8cb",
     "url": "/static/media/AshishPapanai.05ae877b.jpg"
   },
   {
+    "revision": "8b2077a8af9c008e6540ad14d00fefa7",
+    "url": "/static/media/DSC_IGDTUW.8b2077a8.png"
+  },
+  {
     "revision": "744a832e0d7997a2ff7bf4160af883f5",
     "url": "/static/media/DSC_UMIT.744a832e.png"
+  },
+  {
+    "revision": "d49fef3db8cddca23d645e0201b3c424",
+    "url": "/static/media/DSC_VSSUT.d49fef3d.png"
   },
   {
     "revision": "3957cba2585a82cc4e36e206b019d92b",
@@ -108,6 +116,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/activity4.dda51976.png"
   },
   {
+    "revision": "0b0ddb71425768848d727c2ceca67f59",
+    "url": "/static/media/aditya_oberoi.0b0ddb71.jpeg"
+  },
+  {
     "revision": "4d75ee5b1a4b4e5fc79703b1fa5cf787",
     "url": "/static/media/alex-hacker.4d75ee5b.jpg"
   },
@@ -122,6 +134,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "13a43d8d82daed9cfae4b05c8c524d5c",
     "url": "/static/media/alternative-light.13a43d8d.svg"
+  },
+  {
+    "revision": "0219c7e2c03fa81749346b1580267532",
+    "url": "/static/media/ambika.0219c7e2.jpeg"
+  },
+  {
+    "revision": "b25302f0aa380b283f36bf3d9559ce3b",
+    "url": "/static/media/aqib_ahmed.b25302f0.jpeg"
+  },
+  {
+    "revision": "688e833db9d58488c74ab435e061c4a6",
+    "url": "/static/media/arsh_goyal.688e833d.jpeg"
+  },
+  {
+    "revision": "a7194011ed253d9cfcde5f878bc72e71",
+    "url": "/static/media/ayon_roy.a7194011.jpeg"
   },
   {
     "revision": "2c313f9b7917ee554c808662a7af5774",
@@ -152,10 +180,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cb_grey.080eef23.png"
   },
   {
-    "revision": "057a14c84a25e2e25d4a9faaac8469a2",
-    "url": "/static/media/chamath-palihapitiya.057a14c8.jpg"
-  },
-  {
     "revision": "1b89bcd8968e4a81d989c8b8c041abb7",
     "url": "/static/media/chevron-icon.1b89bcd8.svg"
   },
@@ -178,10 +202,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d65b73e7a3ce9987d025255ef3fcf2ef",
     "url": "/static/media/cloud3.d65b73e7.png"
-  },
-  {
-    "revision": "6000e45a5c80b2ea1a1b89da7232658d",
-    "url": "/static/media/connie-yang.6000e45a.jpg"
   },
   {
     "revision": "80d234476b09b0a855076a8940c4e7fc",
@@ -256,6 +276,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hardware4.ceb270c3.png"
   },
   {
+    "revision": "6e425c45c76c35a1ca12810db1fc4b0e",
+    "url": "/static/media/haritha_nair.6e425c45.jpeg"
+  },
+  {
+    "revision": "425cf0a83c8639ad0de4b1355125f99b",
+    "url": "/static/media/harsh_bardhan_mishra.425cf0a8.jpeg"
+  },
+  {
+    "revision": "5b2af670c32255ae617094e8f70f84ab",
+    "url": "/static/media/harsh_singh.5b2af670.jpeg"
+  },
+  {
+    "revision": "68dab237f29918b6da2b94634ec572c4",
+    "url": "/static/media/harshit_singh.68dab237.jpeg"
+  },
+  {
     "revision": "eab10c5e3b99512ba7272e40416b3237",
     "url": "/static/media/icon-dark.eab10c5e.svg"
   },
@@ -288,12 +324,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/jacky-hacker.c2998634.jpg"
   },
   {
-    "revision": "5872e2a254e35ef37caf590508364787",
-    "url": "/static/media/jennifer-dewalt.5872e2a2.jpg"
-  },
-  {
     "revision": "4dcb89344ffca2470ba012ebbf0d57fb",
     "url": "/static/media/justin_trudeau.4dcb8934.jpg"
+  },
+  {
+    "revision": "b7b091c49135b9ae16f03f358b6acb9c",
+    "url": "/static/media/kamal_vaid.b7b091c4.jpeg"
   },
   {
     "revision": "52e8b1be013b98bd66dd10ec97744e11",
@@ -380,8 +416,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/robogoose4.5d158c69.png"
   },
   {
+    "revision": "e14130605b3909b68875ab75356c4952",
+    "url": "/static/media/sahil_rahman.e1413060.jpeg"
+  },
+  {
     "revision": "cb3ef94342b2a8c152d6bf8fb8d93024",
     "url": "/static/media/sashido-logo-for sites.cb3ef943.png"
+  },
+  {
+    "revision": "29e5478f8fe5b86fe4f329d3d40cc5d3",
+    "url": "/static/media/shivay_lamba.29e5478f.jpeg"
+  },
+  {
+    "revision": "db2d4695cffdcce45a43d3dcbfdc164e",
+    "url": "/static/media/shreya_prasad.db2d4695.jpeg"
   },
   {
     "revision": "fcad4dbc8363b1d4db7d9c7aeee4f90b",
@@ -416,8 +464,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/sustainable_cities.b7658f89.png"
   },
   {
-    "revision": "3c1feb2bd00b533c2fa0897513ccaf0a",
-    "url": "/static/media/vinod-khosla.3c1feb2b.jpg"
+    "revision": "ea0eeb290a86002b9bcbfe059d52ab8a",
+    "url": "/static/media/usha_rengareju.ea0eeb29.jpeg"
   },
   {
     "revision": "335ab0709a9ac6a9c43a07c625a0e1c6",
