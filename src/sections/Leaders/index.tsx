@@ -5,10 +5,10 @@ import { Carousel, Text } from "@hackthenorth/north";
 
 import SectionWrapper from "components/SectionWrapper";
 
-const leaders = [...copy.leaders.leaders, ...copy.leaders.leaders];
+//const leaders = copy.leaders.leaders
 
 const LeadersWrapper = styled(SectionWrapper)`
-  display: flex;
+
   color: ${props => props.theme.globalConstants.color.textLight};
   padding: 50px auto;
 
@@ -19,14 +19,7 @@ const LeadersWrapper = styled(SectionWrapper)`
 `;
 
 const Wrapper = styled.div`
-  display: grid;
-  grid-template-areas:
-    "heading illustration"
-    "desc illustration"
-    "carousel carousel";
-  grid-template-columns: 6fr 3fr;
-  column-gap: 100px;
-
+  
   margin: auto;
 
   & > .heading {
@@ -75,19 +68,31 @@ const Wrapper = styled.div`
 `;
 
 const Image = styled.img`
-  height: 125px;
-  width: 125px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
 `;
 
 const LeaderBubbleWrapper = styled.div`
   display: flex;
-  flex-direction: column;
   align-items: center;
   padding-right: 75px;
-  text-align: center;
+  text-align: left;
+  padding:2rem;
+`;
+const LeaderBubbleContent = styled.div`
+    margin-left:1rem;
 `;
 
+const JudgesWrapper = styled.div`
+    display:flex;
+    flex-wrap:wrap;
+    width:80vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 200px;
+    grid-gap: 5px;
+  `;
 const CarouselWrapper = styled.div`
   grid-area: carousel;
   position: relative;
@@ -133,16 +138,18 @@ const CarouselWrapper = styled.div`
   `}
 `;
 
-const getImages = () =>
+const getImages = (leaders: typeof copy.leaders.leaders) =>
   leaders.map((leader, i) => (
     <LeaderBubbleWrapper key={`${leader.name}${i}`}>
       <Image src={leader.img} alt={leader.name} />
+      <LeaderBubbleContent>
       <Text as="p" variant="leaderName">
         {leader.name}
       </Text>
       <Text as="p" variant="leaderTitle">
         {leader.title}
       </Text>
+      </LeaderBubbleContent>
     </LeaderBubbleWrapper>
   ));
 
@@ -152,17 +159,18 @@ const Leaders = () => (
       <Text className="heading" as="h3" variant="sectionHeading">
         {copy.leaders.title}
       </Text>
-      {copy.leaders.desc}
-      <img
-        className="illustration"
-        src={copy.leaders.img}
-        alt="Lightbulb that is an air ballon with two people looking outwards"
-      />
-      <CarouselWrapper>
-        <Carousel className="carousel" itemWidth={125} duration={50}>
-          {getImages()}
-        </Carousel>
-      </CarouselWrapper>
+      <JudgesWrapper>
+        {getImages(copy.leaders.leaders)}
+      </JudgesWrapper>
+    </Wrapper>
+    <Wrapper>
+      <Text className="heading" as="h3" variant="sectionHeading">
+        {copy.mentors.title}
+      </Text>
+      <JudgesWrapper>
+        {getImages(copy.mentors.leaders)}
+        
+      </JudgesWrapper>
     </Wrapper>
   </LeadersWrapper>
 );

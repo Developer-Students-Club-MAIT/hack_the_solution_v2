@@ -13,6 +13,8 @@ import {
   // Sponsors & Partners
   DSCMaitLogo,
   DSCUmitLogo,
+  DSCIGDTUWLogo,
+  DSCVSSUTLogo,
   SponsorLogoImg,
   SponsorIllustrationImg,
   
@@ -44,16 +46,6 @@ import {
   SpeakerImg4,
   WaterlooEngLogoImg,
   // Leaders section
-  CatHeadshotImg,
-  ChamathHeadshotImg,
-  ConnieHeadshotImg,
-  DylanHeadshotImg,
-  EthanWildingHeadshotImg,
-  JeffHeadshotImg,
-  JenniferHeadshotImg,
-  TiffaniHeadshotImg,
-  TracyHeadshotImg,
-  VinodHeadshotImg,
   LightbulbBalloonCloudsIllustrationImg,
   // Navbar
   LogoIconLightImg,
@@ -96,7 +88,21 @@ DeepikaRanaImg,
 HarshitaChadhaImg,
 SakshamAroraImg,
 cbLogoImg,
-gfgLogoImg
+gfgLogoImg,
+UshaRengarejuImg,
+HarithaNairImg,
+AyonRoyImg,
+KamalVaidImg,
+ShivayLambaImg,
+AqibAhmedImg,
+ArshGoyalImg,
+ShreyaPrasadImg,
+AdityaOberoiImg,
+HarshSinghImg,
+AmbikaImg,
+HarshBardhanMishraImg,
+HarshitSinghImg,
+SahilRahmanImg
 } from "static/img";
 
 interface Sponsor {
@@ -261,6 +267,18 @@ const sponsors: Sponsor[] = [
     name: "DSC Umit",
     tier: "partner",
     imgSrc: DSCUmitLogo,
+    link: "#"
+  },
+  {
+    name: "DSC VSSUT",
+    tier: "partner",
+    imgSrc: DSCVSSUTLogo,
+    link: "#"
+  },
+  {
+    name: "DSC IGDTUW",
+    tier: "partner",
+    imgSrc: DSCIGDTUWLogo,
     link: "#"
   }
   
@@ -611,7 +629,7 @@ export default {
   },
   footer: {
     img: DSCLogo,
-    cta: "#hackthesolution • What will you create to be put in?",
+    cta: "#hackthesolution | What will you create to be put in?",
     links: [
       {
         text: "About Hack the Solution",
@@ -650,66 +668,94 @@ export default {
     defaultOrganizerText: "Made with 💛 using hackthenorth.com"
   },
   leaders: {
-    title: "Be inspired by industry leaders",
-    desc: (
-      <Text className="desc" variant="sectionText">
-        Tech leaders come to Hack the North to be judges, to speak, and to be on
-        the ground innovating with hackers. Stay tuned for updates on this
-        year's speakers and judges.
-      </Text>
-    ),
+    title: "Judges",
+    
     img: LightbulbBalloonCloudsIllustrationImg,
     leaders: [
       {
-        name: "Cat Noone",
-        title: "Founder, Iris",
-        img: CatHeadshotImg
+        name: "Usha Rengareju",
+        title: "Principal Data Scientist | 2x Kaggle Grandmaster",
+        img: UshaRengarejuImg
       },
       {
-        name: "Chamath Palihapitiya",
-        title: "CEO and Founder, Social Capital",
-        img: ChamathHeadshotImg
+        name: "Haritha Nair",
+        title: "Software Engineer at Microsoft",
+        img: HarithaNairImg
       },
       {
-        name: "Connie Yang",
-        title: "Design Director, Coinbase",
-        img: ConnieHeadshotImg
+        name: "Shivay Lamba",
+        title: "Lead Engineer @ DarkHorse | GSoC Mentor | GCI Mentor",
+        img: ShivayLambaImg
+
       },
       {
-        name: "Dylan Field",
-        title: "CEO and Co-founder, Figma",
-        img: DylanHeadshotImg
+        name: "Aqib Ahmed",
+        title: "Tech Speaker | Sr Software Engineer at Colt Technologies",
+        img: AqibAhmedImg
       },
       {
-        name: "Ethan Wilding",
-        title: "Co-founder, Ledger Labs",
-        img: EthanWildingHeadshotImg
+        name: "Kamal Vaid",
+        title: "Technology Lead at Infosys | GDE For Google Assistant",
+        img: KamalVaidImg
+      },
+      
+     
+    ]
+  },
+  mentors: {
+    title: "Mentors",
+    
+    leaders: [
+      {
+        name: "Ayon Roy",
+        title: "Speaker/Mentor/Judge @ 120+ AI, ML, Data Science Events",
+        img: AyonRoyImg
       },
       {
-        name: "Jeff Coleman",
-        title: "Co-founder, Ledger Labs",
-        img: JeffHeadshotImg
+        name: "Arsh Goyal",
+        title: "SDE Intern at Samsung | SWE Intern ISRO",
+        img: ArshGoyalImg
       },
       {
-        name: "Jennifer Dewalt",
-        title: "Founder, Zube",
-        img: JenniferHeadshotImg
+        name: "Shreya Prasad",
+        title: "SWE Intern @Bank of New York Mellon | GSoC’21, GCI’19 Mentor @CircuitVerse",
+        img: ShreyaPrasadImg
+        
       },
       {
-        name: "Tiffani Bell",
-        title: "Founder, The Human Utility",
-        img: TiffaniHeadshotImg
+        name: "Aditya Oberoi",
+        title: "Imagine Cup 2021 National Winner | MLH Coach | Gold Microsoft Learn Student Ambassador",
+        img: AdityaOberoiImg
       },
       {
-        name: "Tracy Chou",
-        title: "Founding Advisor, Project Include",
-        img: TracyHeadshotImg
+        name: "Harshit Sibgh",
+        title: "SDE@Amazon India | AWS Ranchi | Judge@ NASASpaceApp Pune, DelhiHacks, HackTheMountain",
+        img: HarshitSinghImg
+      },
+      
+      {
+        name: "Ambika",
+        title: "Product Intern @Adobe | Former SDE Intern @LinkedIn",
+        img: AmbikaImg
       },
       {
-        name: "Vinod Khosla",
-        title: "Co-founder,  Sun Microsystems",
-        img: VinodHeadshotImg
-      }
+        name: "Harsh Bardhan Mishra",
+        title: "Intern @ Red Hat | Developer Outreach @ DeepSource",
+        img: HarshBardhanMishraImg
+      },
+      {
+        name: "Harsh Singh",
+        title: "Ex-DSC BVP Lead | Student Mentor at Google Code-in ",
+        img: HarshSinghImg
+      },
+
+      {
+        name: "Sahil Rahman",
+        title: "Open Source Project Mentor at DevScript Winter of Code S01 & Script Winter of Code (SWoC 2021) ",
+        img: SahilRahmanImg
+      },
+      
+     
     ]
   }
 };

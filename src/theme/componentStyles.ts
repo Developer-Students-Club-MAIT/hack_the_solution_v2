@@ -55,14 +55,14 @@ const componentStyles = {
     variants: {
       leaderName: css`
         font-family: ${props => props.theme.globalConstants.fontFamily.text};
-        font-size: ${props => props.theme.globalConstants.fontSize.p4}px;
+        font-size: ${props => props.theme.globalConstants.fontSize.p4 + 4}px;
         line-height: 18px;
         color: #fff;
         margin-bottom: 0;
       `,
       leaderTitle: css`
         font-family: ${props => props.theme.globalConstants.fontFamily.text};
-        font-size: 11px;
+        font-size: 12px;
         margin-top: 3px;
         color: #fff;
       `,

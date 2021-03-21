@@ -22,6 +22,9 @@ export {default as replItLogoImg} from "./sponsors/repl_it.png";
 export { default as DSCMaitLogo } from "./logos/dsc_mait.png";
 export { default as DSCUmitLogo } from "./logos/DSC_UMIT.png";
 
+export { default as DSCVSSUTLogo } from "./logos/DSC_VSSUT.png";
+export { default as DSCIGDTUWLogo } from "./logos/DSC_IGDTUW.png";
+
 export {default as gfgLogoImg} from "./logos/gfg.png";
 export {default as cbLogoImg} from "./logos/cb_grey.png";
 
@@ -147,21 +150,25 @@ export { default as SpeakerImg3 } from "./photos/speaker3.png";
 export { default as SpeakerImg4 } from "./photos/speaker4.png";
 
 /* Judges */
-export { default as BalajiHeadshotImg } from "./leaders/balaji-srinivasan.jpg";
-export { default as CatHeadshotImg } from "./leaders/cat-noone.jpg";
-export {
-  default as ChamathHeadshotImg
-} from "./leaders/chamath-palihapitiya.jpg";
-export { default as ConnieHeadshotImg } from "./leaders/connie-yang.jpg";
-export { default as DylanHeadshotImg } from "./leaders/dylan-field.jpg";
-export {
-  default as EthanWildingHeadshotImg
-} from "./leaders/ethan-wilding.jpg";
-export { default as JeffHeadshotImg } from "./leaders/jeff-coleman.jpg";
-export { default as JenniferHeadshotImg } from "./leaders/jennifer-dewalt.jpg";
-export { default as TiffaniHeadshotImg } from "./leaders/tiffani-bell.jpg";
-export { default as TracyHeadshotImg } from "./leaders/tracy-chou.jpg";
-export { default as VinodHeadshotImg } from "./leaders/vinod-khosla.jpg";
+export { default as UshaRengarejuImg } from "./leaders/usha_rengareju.jpeg";
+export { default as HarithaNairImg } from "./leaders/haritha_nair.jpeg";
+export { default as ShivayLambaImg } from "./leaders/shivay_lamba.jpeg";
+export {default as AqibAhmedImg} from "./leaders/aqib_ahmed.jpeg";
+export {default as KamalVaidImg} from "./leaders/kamal_vaid.jpeg";
+
+
+/* mentor */
+export {default as AyonRoyImg} from "./leaders/ayon_roy.jpeg";
+export {default as ArshGoyalImg} from "./leaders/arsh_goyal.jpeg";
+export {default as ShreyaPrasadImg} from "./leaders/shreya_prasad.jpeg";
+export {default as AdityaOberoiImg} from "./leaders/aditya_oberoi.jpeg";
+export {default as HarshitSinghImg} from "./leaders/harshit_singh.jpeg";
+export {default as AmbikaImg} from "./leaders/ambika.jpeg";
+export {default as HarshBardhanMishraImg} from "./leaders/harsh_bardhan_mishra.jpeg";
+export {default as HarshSinghImg} from "./leaders/harsh_singh.jpeg";
+export {default as SahilRahmanImg} from "./leaders/sahil_rahman.jpeg";
+
+
 
 
 /* Themes */
