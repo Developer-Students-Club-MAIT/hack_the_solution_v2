@@ -155,7 +155,7 @@ export { default as HarithaNairImg } from "./leaders/haritha_nair.jpeg";
 export { default as ShivayLambaImg } from "./leaders/shivay_lamba.jpeg";
 export {default as AqibAhmedImg} from "./leaders/aqib_ahmed.jpeg";
 export {default as KamalVaidImg} from "./leaders/kamal_vaid.jpeg";
-
+export {default as AlonGrinshpoonImg} from "./leaders/alon_grinshpoon.png";
 
 /* mentor */
 export {default as AyonRoyImg} from "./leaders/ayon_roy.jpeg";
@@ -167,9 +167,7 @@ export {default as AmbikaImg} from "./leaders/ambika.jpeg";
 export {default as HarshBardhanMishraImg} from "./leaders/harsh_bardhan_mishra.jpeg";
 export {default as HarshSinghImg} from "./leaders/harsh_singh.jpeg";
 export {default as SahilRahmanImg} from "./leaders/sahil_rahman.jpeg";
-
-
-
+export {default as ParulAggarwalImg} from "./leaders/parul_aggarwal.jpeg";
 
 /* Themes */
 export {default as GoodHealthAndWellBeingImg} from "./photos/good_health.png";

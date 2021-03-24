@@ -102,7 +102,9 @@ HarshSinghImg,
 AmbikaImg,
 HarshBardhanMishraImg,
 HarshitSinghImg,
-SahilRahmanImg
+SahilRahmanImg,
+ParulAggarwalImg,
+AlonGrinshpoonImg
 } from "static/img";
 
 interface Sponsor {
@@ -698,7 +700,11 @@ export default {
         title: "Technology Lead at Infosys | GDE For Google Assistant",
         img: KamalVaidImg
       },
-      
+      {
+        name: "Alon Grinshpoon",
+        title: "Founder & CEO at echoAR (Techstars '19)",
+        img: AlonGrinshpoonImg
+      },
      
     ]
   },
@@ -754,6 +760,12 @@ export default {
         title: "Open Source Project Mentor at DevScript Winter of Code S01 & Script Winter of Code (SWoC 2021) ",
         img: SahilRahmanImg
       },
+      {
+        name: "Parul Aggarwal",
+        title: "Application Developer @ThoughtWorks | Google #GHCI19, WTM APAC Scholar'18",
+        img: ParulAggarwalImg
+      },
+      
       
      
     ]
