@@ -729,7 +729,7 @@ export default {
         
       },
       {
-        name: "Aditya Oberoi",
+        name: "Aditya Oberai",
         title: "Imagine Cup 2021 National Winner | MLH Coach | Gold Microsoft Learn Student Ambassador",
         img: AdityaOberoiImg
       },
