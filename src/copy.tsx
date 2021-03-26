@@ -88,6 +88,7 @@ DeepikaRanaImg,
 HarshitaChadhaImg,
 SakshamAroraImg,
 cbLogoImg,
+giveMyCertificateLogo,
 gfgLogoImg,
 UshaRengarejuImg,
 HarithaNairImg,
@@ -104,7 +105,8 @@ HarshBardhanMishraImg,
 HarshitSinghImg,
 SahilRahmanImg,
 ParulAggarwalImg,
-AlonGrinshpoonImg
+AlonGrinshpoonImg,
+codeFlowLogo
 } from "static/img";
 
 interface Sponsor {
@@ -205,6 +207,12 @@ const sponsors: Sponsor[] = [
     imgSrc: cbLogoImg,
     link: "https://codingblocks.com/"
   },
+  {
+    name: "Give My Certificate",
+    tier: "bronze",
+    imgSrc: giveMyCertificateLogo,
+    link: "https://givemycertificate.com/"
+  },
   // {
   //   name: "Hack the North",
   //   tier: "bronze",
@@ -265,6 +273,7 @@ const sponsors: Sponsor[] = [
     imgSrc: DSCMaitLogo,
     link: "https://dscmait.xyz/"
   },
+  
   {
     name: "DSC Umit",
     tier: "partner",
@@ -282,11 +291,16 @@ const sponsors: Sponsor[] = [
     tier: "partner",
     imgSrc: DSCIGDTUWLogo,
     link: "#"
-  }
+  },
   
+  {
+    name: "Code flow",
+    tier: "partner",
+    imgSrc: codeFlowLogo,
+    link: "#"
+  }
 ];
 
-// Taken from https://github.com/Daplie/knuth-shuffle
 const shuffle = <T extends {}>(array: T[]) => {
   let currentIndex = array.length,
     temporaryValue,
@@ -734,7 +748,7 @@ export default {
         img: AdityaOberoiImg
       },
       {
-        name: "Harshit Sibgh",
+        name: "Harshit Singh",
         title: "SDE@Amazon India | AWS Ranchi | Judge@ NASASpaceApp Pune, DelhiHacks, HackTheMountain",
         img: HarshitSinghImg
       },

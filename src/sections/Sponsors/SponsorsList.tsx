@@ -48,12 +48,21 @@ const SponsorContainer = styled.div`
   margin: 30px 0;
 `;
 
+const PartnersContainer = styled.div`
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-auto-rows: 150px;
+  justify-content:center;
+  grid-gap: 20px;
+`
 const SponsorItem = styled(Link)<{ tier: string }>`
   display: flex;
   position: relative;
   height: ${props => sponsorHeights[props.tier].h}px;
   width: ${props => (props.tier === "gold" ? "100%" : "unset")};
   padding: 40px;
+  
   cursor: pointer;
 
   transition: opacity 250ms ease-in-out;
@@ -77,6 +86,19 @@ const SponsorImg = styled.img`
     max-height: 100%;
   `}
 `;
+
+const PartnerImg = styled.img`
+  margin: auto;
+  height: 100%;
+  max-width: 100%;
+
+  ${props => props.theme.mediaQueries.tabletMobile`
+    height: unset;
+    max-height: 100%;
+  `}
+`;
+
+
 
 const SponsorsList = () => (
   <>
@@ -130,7 +152,7 @@ const SponsorsList = () => (
     <Text as="h3" variant="subheading">
       Community Partners
     </Text>
-    <SponsorContainer>
+    <PartnersContainer>
       {partners.map(partner => (
         <SponsorItem
           key={partner.name}
@@ -145,7 +167,7 @@ const SponsorsList = () => (
           />
         </SponsorItem>
       ))}
-    </SponsorContainer>
+    </PartnersContainer>
   </>
 );
 

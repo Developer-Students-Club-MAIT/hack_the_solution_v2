@@ -21,6 +21,9 @@ export {default as balsamiqLogoImg} from "./sponsors/balsamiq-logo-screen.png";
 export {default as replItLogoImg} from "./sponsors/repl_it.png";
 export { default as DSCMaitLogo } from "./logos/dsc_mait.png";
 export { default as DSCUmitLogo } from "./logos/DSC_UMIT.png";
+export {default as codeFlowLogo} from "./logos/codeflow_logo.jpg";
+export {default as giveMyCertificateLogo} from "./logos/give_my_certificate.png";
+
 
 export { default as DSCVSSUTLogo } from "./logos/DSC_VSSUT.png";
 export { default as DSCIGDTUWLogo } from "./logos/DSC_IGDTUW.png";
